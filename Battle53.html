@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Stairway - 86</title>
+  </head>
+  <body>
+    <div class="wrapper">
+  <div class="circle big"></div>
+  <div class="rect">
+    <div class="circle small"></div>
+  </div>
+</div>
+<style>
+  *{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+  }
+  body {
+    width : 100vw;
+    height : 100vh;
+    background-color : #19191A;
+    display : flex;
+    justify-content:center;
+    align-items : center;
+  }
+  .wrapper {
+    width: 200px;
+    height: 200px;
+    display : flex;
+    justify-content:center;
+    align-items : flex-start;
+    position : relative;
+/*     background: #dd6b4d; */
+  }
+  .circle {
+    border-radius : 50%;
+  }
+  .big {
+    width : 150px;
+    height : 150px;
+    background-color : #4f77FF;
+  }
+    .rect {
+      position : absolute;
+      bottom : 0;
+      left : 12.5%;
+      background-color : #F9E492;
+      height : 125.3px;
+      width : 75px;
+      overflow : hidden;
+    }
+    .small {
+      width : 145px;
+      height : 145px;
+      background-color : #9AD5FF;
+      position : absolute;
+      top : -56%;
+    }
+</style>
+  </body>
+</html>
